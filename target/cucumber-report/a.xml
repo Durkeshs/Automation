@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="122.558978">
+<testcase classname="To validate  the facebook application" name="To validate the search functionality in amazon" time="122.558978">
+<system-out><![CDATA[Given user launches google chrome and amazon................................passed
+When user seaches watches  and click seach..................................passed
+Then user navigates to watches page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

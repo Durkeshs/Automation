@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.491564">
+<testcase classname="To validate  the facebook application" name="To validate the search functionality in amazon" time="34.491564">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.step.StepDefinition.user_navigates_to_watches_page(StepDefinition.java:61)&#13;&#10;&#9;at ✽.user navigates to watches page(file:src/test/resources/testscript.feature:20)&#13;&#10;"><![CDATA[Given user launches google chrome and amazon................................passed
+When user seaches watches  and click seach..................................passed
+Then user navigates to watches page.........................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.step.StepDefinition.user_navigates_to_watches_page(StepDefinition.java:61)
+	at ✽.user navigates to watches page(file:src/test/resources/testscript.feature:20)
+]]></failure>
+</testcase>
+</testsuite>

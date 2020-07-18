@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-11T14:05:32.424Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20993744641,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate the search functionality in amazon",
+        "description": "",
+        "id": "to-validate--the-facebook-application;to-validate-the-search-functionality-in-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 1244670448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6395794828,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user launches google chrome and amazon",
+            "match": {
+              "location": "StepDefinition.user_launches_google_chrome_and_amazon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18114525957,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user seaches watches  and click seach",
+            "match": {
+              "location": "StepDefinition.user_seaches_watches_and_click_seach()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.step.StepDefinition.user_navigates_to_watches_page(StepDefinition.java:61)\r\n\tat ✽.user navigates to watches page(file:src/test/resources/testscript.feature:20)\r\n",
+              "duration": 9453782,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "user navigates to watches page",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_watches_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate  the facebook application",
+    "description": "",
+    "id": "to-validate--the-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/testscript.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
