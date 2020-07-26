@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-07-11T14:05:32.424Z",
+        "start_timestamp": "2020-07-26T04:54:46.847Z",
         "before": [
           {
             "result": {
-              "duration": 20993744641,
+              "duration": 15353284459,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1244670448,
+              "duration": 2378309510,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6395794828,
+              "duration": 2510194936,
               "status": "passed"
             },
             "line": 18,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 18114525957,
+              "duration": 11875246544,
               "status": "passed"
             },
             "line": 19,
@@ -59,9 +59,8 @@
           },
           {
             "result": {
-              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.step.StepDefinition.user_navigates_to_watches_page(StepDefinition.java:61)\r\n\tat ✽.user navigates to watches page(file:src/test/resources/testscript.feature:20)\r\n",
-              "duration": 9453782,
-              "status": "failed"
+              "duration": 3310013,
+              "status": "passed"
             },
             "line": 20,
             "name": "user navigates to watches page",
